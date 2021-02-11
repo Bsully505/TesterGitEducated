@@ -10,8 +10,8 @@ public static int num2 = -1;
 
 public static void main(String[] args){
 	Scanner input = new Scanner(System.in);
-	System.out.println("Welcome to my Calculator");
-	System.out.println("please enter a number");
+	System.out.println("Welcome to my Post fix Calculator");
+	System.out.println("please enter a number if you have two numbers in your stack you can also add and operand");
 	while(true){
 		String temp = input.next();
 		switch(temp){
